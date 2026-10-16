@@ -1,0 +1,60 @@
+# =========================
+# Python
+# =========================
+
+.venv/
+__pycache__/
+*.py[cod]
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Operating System
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Raw Dataset
+# =========================
+
+data/raw/*
+!data/raw/.gitkeep
+
+# =========================
+# Trained Models
+# =========================
+
+models/checkpoints/*.pth
+
+# Keep production model checkpoints tracked through Git LFS
+!models/checkpoints/resnet18_extended_finetuned_latest.pth
+!models/checkpoints/unet_segmentation_best.pth
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# Keep detailed dataset records out of the initial public repository
+data/processed/agrisense_metadata_clean.csv
+data/processed/validation_confidence_predictions.csv
