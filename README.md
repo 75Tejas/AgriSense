@@ -6,6 +6,16 @@ The project combines a fine-tuned ResNet-18 classifier, a lightweight U-Net segm
 
 ## Project Overview
 
+## Application Screenshots
+
+### Application Homepage 
+![AgriSense Homepage](docs/images/homepage.png)
+
+
+## Disease Prediction | Grad-CAM | Disease Segmentation |   Visualization
+![Disease Prediction](docs/images/disease_prediction.png)
+
+
 ### Problem
 
 Plant disease identification from images is challenging because real-world images can contain different resolutions, aspect ratios, backgrounds, lighting conditions, plant species, and disease appearances.
