@@ -6,6 +6,18 @@ The project combines a fine-tuned ResNet-18 classifier, a lightweight U-Net segm
 
 ## Project Overview
 
+## 🎥 Application Demo
+
+Watch AgriSense in action, including crop disease
+classification, confidence scores, disease-region
+segmentation, and explainability visualizations.
+
+### Full Application Walkthrough
+
+
+https://github.com/user-attachments/assets/130e6065-ee30-46c2-8920-f430a072514d
+
+
 ## Application Screenshots
 
 ### Application Homepage 
